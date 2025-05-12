@@ -1,12 +1,21 @@
 fn main() {
-    //Class 124
+    //Class 125
+    let city = create_city();
+    println!("{}", city);
+
+}
+fn create_city() -> String {
+    String::from("New York")
+}
+
+/*
+  //Class 124
     let mut coffee = String::from("mocha");    
     let a = &mut coffee;
     println!("{}", a);
     let b = a;
     println!("{}", b);
-
-}
+*/
 /*
     // Class 122
     let car = String::from("red");
