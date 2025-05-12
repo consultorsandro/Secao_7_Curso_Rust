@@ -1,12 +1,27 @@
 fn main() {
-    //Class 125
+    // Class 126
+    let registration = (true, false, true);
+    let first = registration.0;
+    println!("First: {} and {:?} ", first, registration);
+
+    let languages = (String::from("Rust"), String::from("Python"));
+    let first = &languages.0;
+    println!("First: {} and {:?} ", first, languages);
+
+}
+/*
+ //Class 125
     let city = create_city();
     println!("{}", city);
 
-}
+    
+//Class 125 outside main
 fn create_city() -> String {
     String::from("New York")
 }
+*/
+
+
 
 /*
   //Class 124
